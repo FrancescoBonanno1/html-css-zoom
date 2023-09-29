@@ -68,8 +68,9 @@ main{
     background-color: black;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 100vh;
-    overflow: auto;
+    height: calc(100vh - 116px);
+    width: 100vw;
+    overflow:auto;
 
 }
 footer{
